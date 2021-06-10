@@ -530,4 +530,21 @@ body{
     body{
         font-size: 70%;
     }
+    .botao-container {
+        height: auto;
+    }
+    .foto-menu img {
+        height: 80%;
+        width: 80%;
+    }
+}
+
+@media (max-width:300px) {
+    body{
+        font-size: 50%;
+    }
+    .foto-menu img {
+        height: 60%;
+        width: 60%;
+    }
 }
